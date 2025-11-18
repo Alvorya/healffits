@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealFFIT - Moda fitness</title>
+    <link rel="icon" type="image/png" href="/assets/images/min/Logo.png">
+   <meta http-equiv="Content-Security-Policy"
+      content="
+      default-src 'self';
+      script-src 'self' https://apis.google.com https://script.google.com https://script.googleusercontent.com 'unsafe-inline' 'unsafe-eval';
+      connect-src 'self' https://script.google.com https://script.googleusercontent.com;
+      img-src 'self' https: data:;
+      style-src 'self' 'unsafe-inline';
+      frame-src https://script.google.com;">
+
+    <script type="module" src="./src/main.js"></script>
+</head>
+<body class="bg-slate-800">
+    <section id="home" class="min-h-screen gradient-bg pt-24 relative overflow-hidden">
+        <div class="container mx-auto px-6 py-20 relative z-10">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-8">
+                    <h2 class="text-5xl md:text-6xl font-bold leading-tight">
+                        ALVORYA VISION:<br/>
+                        <span class="text-red-500">ORGANIZAÇÃO INTELIGENTE</span><br/>
+                        DE SOFTWARE
+                    </h2>
+                    <p class="text-xl text-slate-300">
+                        Crie aqui sua landing page personalizada com facilidade e rapidez.
+                        Nossa plataforma oferece ferramentas intuitivas para que você possa
+                        montar uma página atraente e funcional em poucos minutos.
+                    </p>
+        
+                </div>
+                
+                <div class="flex justify-center">
+                    <div class="relative w-96 h-96 floating">
+                        <div class="absolute inset-0 rotating">
+                            <svg viewBox="0 0 200 200" class="w-full h-full">
+                                <circle cx="100" cy="100" r="80" fill="none" stroke="url(#gradient1)" stroke-width="2" stroke-dasharray="5,5"/>
+                                <circle cx="100" cy="100" r="60" fill="none" stroke="url(#gradient2)" stroke-width="2" stroke-dasharray="3,3"/>
+                                <circle cx="100" cy="100" r="40" fill="none" stroke="url(#gradient3)" stroke-width="3"/>
+                                <defs>
+                                    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#ef4444;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+                                    </linearGradient>
+                                    <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="0%">
+                                        <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#ef4444;stop-opacity:1" />
+                                    </linearGradient>
+                                    <linearGradient id="gradient3" x1="0%" y1="0%" x2="0%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#ef4444;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="100" cy="30" r="5" fill="#ef4444"/>
+                                <circle cx="170" cy="100" r="5" fill="#3b82f6"/>
+                                <circle cx="100" cy="170" r="5" fill="#ec4899"/>
+                                <circle cx="30" cy="100" r="5" fill="#8b5cf6"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
