@@ -29,7 +29,7 @@ export const Header = ({
           </span>
         </div>
 
-        {/* REMOVEI O MENU COMO VOCÊ QUIS */}
+       
         {/* <nav className="hidden md:flex items-center gap-6">
           ...
         </nav> */}
